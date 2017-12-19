@@ -1609,9 +1609,9 @@
 		width: device-width;
 	}
 
-	body {
+	/* body {
 		-ms-overflow-style: scrollbar;
-	}
+	} */
 
 	@media screen and (max-width: 480px) {
 
@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: orange;
+		background: transparent;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2055,7 +2055,7 @@
 		border: solid 1px rgba(255, 255, 255, 0.15);
 		background: rgba(255, 255, 255, 0.05);
 		margin: 0 0 2em 0;
-	}
+  }
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
@@ -3019,16 +3019,16 @@
 			min-height: 0;
 		}
 
-		.spotlights > section > .image {
+		/* .spotlights > section > .image {
 			background-position: center center;
 			background-size: cover;
 			border-radius: 0;
 			display: block;
 			position: relative;
 			width: 25em;
-		}
+		} */
 
-			.spotlights > section > .image img {
+			/* .spotlights > section > .image img {
 				border-radius: 0;
 				display: block;
 			}
@@ -3047,7 +3047,7 @@
 				position: absolute;
 				top: 0;
 				width: 100%;
-			}
+			} */
 
 		.spotlights > section > .content {
 			padding: 4em 5em 2em 5em ;
@@ -3063,7 +3063,7 @@
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			width: 50em;
+			width: 100%;
 			-ms-flex: 1;
 		}
 
@@ -3087,9 +3087,9 @@
 			background-color: rgba(0, 0, 0, 0.1);
 		}
 
-		.spotlights > section.inactive > .image:before, body.is-loading .spotlights > section > .image:before {
+		/* .spotlights > section.inactive > .image:before, body.is-loading .spotlights > section > .image:before {
 			opacity: 1;
-		}
+		} */
 
 		.spotlights > section.inactive > .content > .inner, body.is-loading .spotlights > section > .content > .inner {
 			-moz-transform: translateX(-1em);
@@ -3113,10 +3113,10 @@
 				display: block;
 			}
 
-				.spotlights > section > .image {
+				/* .spotlights > section > .image {
 					width: 100%;
 					height: 50vh;
-				}
+				} */
 
 				.spotlights > section > .content {
 					width: 100%;
@@ -3133,10 +3133,10 @@
 
 		@media screen and (max-width: 736px) {
 
-			.spotlights > section > .image {
+			/* .spotlights > section > .image {
 				height: 50vh;
 				min-height: 15em;
-			}
+			} */
 
 			.spotlights > section > .content {
 				padding: 3em 2em 1em 2em ;
