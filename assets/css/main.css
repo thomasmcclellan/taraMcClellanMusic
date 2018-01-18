@@ -1173,7 +1173,7 @@
 
 	}
 
-	@media screen and (max-width: 480px) {
+	/* @media screen and (max-width: 480px) {
 
 		.row > * {
 			padding: 0 0 0 1.5em;
@@ -1601,7 +1601,7 @@
 			margin-left: 8.33333%;
 		}
 
-	}
+	} */
 
 /* Basic */
 
@@ -1613,13 +1613,13 @@
 		-ms-overflow-style: scrollbar;
 	} */
 
-	@media screen and (max-width: 480px) {
+	/* @media screen and (max-width: 480px) {
 
 		html, body {
 			min-width: 320px;
 		}
 
-	}
+	} */
 
 	body {
 		background: transparent;
@@ -1662,13 +1662,13 @@
 
 		}
 
-		@media screen and (max-width: 360px) {
+		/* @media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
 
-		}
+		} */
 
 	a {
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
@@ -2270,7 +2270,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		/* @media screen and (max-width: 480px) {
 
 			.features section {
 				padding: 2em 1.5em 0.1em 1.5em ;
@@ -2282,7 +2282,7 @@
 					top: 0;
 				}
 
-		}
+		} */
 
 /* Form */
 
@@ -2406,7 +2406,7 @@
 		}
 
 	select option {
-		background-color: red;
+    background-image: linear-gradient(to right, #e59f3a, #F4BB48);
 		color: #ffffff;
 	}
 
@@ -2777,7 +2777,7 @@
 						padding: 0 0 0 0.5em;
 					}
 
-			@media screen and (max-width: 480px) {
+			/* @media screen and (max-width: 480px) {
 
 				ul.actions {
 					margin: 0 0 2em 0;
@@ -2815,7 +2815,7 @@
 							padding-top: 0;
 						}
 
-			}
+			} */
 
 		ul.contact {
 			list-style: none;
@@ -2850,7 +2850,7 @@
 					padding-left: 0;
 				}
 
-			@media screen and (max-width: 480px) {
+			/* @media screen and (max-width: 480px) {
 
 				ul.menu > li {
 					border-left: 0;
@@ -2860,7 +2860,7 @@
 					padding-left: 0;
 				}
 
-			}
+			} */
 
 	dl {
 		margin: 0 0 2em 0;
@@ -3259,7 +3259,7 @@
 
     /* Background color - footer */
 		.wrapper.style1-alt {
-			background-color: #e59f3a;
+			background-color: #58524F;
 		}
 
     /* Background color - about*/
