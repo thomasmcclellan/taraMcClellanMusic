@@ -133,22 +133,26 @@
           <h2>Get in touch</h2>
           <p>Visit my <a href="https://www.youtube.com/playlist?list=UUeDfQlBiSiiYL-3C2l89q5g" target="blank"><b>YouTube</b></a> page to see some of my wonderful performances with previous students!</p>
           <section>
-            <form method="post" action="#"><!-- formspree to taramcclellan92@gmail.com -->
-              <div class="field half first">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
+            <form action="https://formspree.io/thomasmcclellan87@gmail.com" method="POST">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name" name="name"> 
+                <p class="help-block text-danger"></p>
               </div>
-              <div class="field half">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email" name="_replyto"> 
+                <p class="help-block text-danger"></p>
               </div>
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="5"></textarea>
+              <div class="form-group">
+                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message" name="message"></textarea>
+                <p class="help-block text-danger"></p>
               </div>
-              <ul class="actions">
-                <li><a href="" class="button submit">Send Message</a></li>
-              </ul>
+              <div class="text-center">
+                <div id="success"></div>
+                <button id="sendMessageButton" class="btn btn-primary" type="submit">
+                  <i class="fa fa-send-o"></i>
+                  Send Message
+                </button>
+              </div>
             </form>
           </section>
         </div>
